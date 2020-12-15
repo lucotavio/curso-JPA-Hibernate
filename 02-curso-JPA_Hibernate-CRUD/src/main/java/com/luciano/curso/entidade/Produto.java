@@ -1,4 +1,4 @@
-package com.luciano.curso;
+package com.luciano.curso.entidade;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
