@@ -1,0 +1,14 @@
+A primeira coisa que eu vou falar é sobre artefatos de software: um artefato de software é um é um dos vários tipos de subprodutos concretos produzido durante o desenvolvimento de software. Exemplos de artefatos de
+software são: diagramas UML,m como diagrama de caso de uso, diagrama de classes, documento de levantamento de requisitos, o documento de analise de requisitos. E esses artefatos ajudam
+a descrever a função, arquitetura e o design do software
+
+
+Modelo de domínio é o artefato no qual são descritas classes conceituais relevantes a um domínio de interesse onde vc vai desenvolver um software para esse dominio de interesse, como exemplo de demonio
+de interesse posso citar um sistema de aluguel de veiculos, um sistemas de lojas
+de varejo e atacado, um sistema de controle de serviços de uma oficina mecanica, no modelo de dominio alem dessas classes vc tem as associações entre essas classes
+
+Modelo de domínio é o principal artefato produzido pelo que geralmente é conhecido
+como análise orientada a objetos. Geralmente é produzido juntamente com levantamento de requisitos funcionais e não funcionais do software.A investigação dos requisitos é imprescindível para a
+obtenção do modelo de domínio correspondente, ou seja o conjunto  das classes que vão fazer parte do sistema, dentre essas classes que vão fazer parte do sistema
+algumas delas serão entidades no  nosso
+sistema, ou seja, objetos dessas classes serão persistidas em uma tabela no banco de dados, por exemplo em um sistema  de vendas para o atacado ou varejo nos teremos as entidades cliente, vendedor, venda, produto

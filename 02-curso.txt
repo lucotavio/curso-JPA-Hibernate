@@ -1,0 +1,5 @@
+Para fazer esse curso, é nescessario solido conhecimento nos conceitos de programação orientada a objetos em Java, esses conceitos são: saber o que é uma classe, classe abstrata, interface, polimorfismo, herança, coesão,
+acoplamento, saber o que são relacionamentos é um, tem um, alem de saber esses conceitos vc tem que saber usar esses conceitos corretamente.  eu to falando isso, porque o JPA e o hibernate utilizam todos esses conceitos
+e não adianta querer aprender JPA e Hibernate se vc não sabe esses conceitos, vc não vai saber usar a especificação JPA e o framework Hibernate corretamente, o que vai gerar um software com um design mal feito, e softwre
+com design mal feito é sinal de software codificado incorretamente, software dificil de dar manutenção, software dificil de escalar. Querer aprender Hibernate sem ter conhecimentos solidos
+em programação orientada a objetos em java, é o mesmo que querer aprender a correr antes de saber andar.
