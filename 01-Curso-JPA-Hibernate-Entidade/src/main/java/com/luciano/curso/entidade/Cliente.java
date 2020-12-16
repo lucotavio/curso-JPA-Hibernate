@@ -24,10 +24,10 @@ public class Cliente {
     @Column(name = "NOME", nullable = false, length = 100)   
     private String nome;
     
-    @Column(name = "CPF", nullable = false, length = 14)
+    @Column(name = "CPF", nullable = false, unique = true, length = 14)
     private String cpf;
     
-    @Column(name = "IDENTIDADE", nullable = false, length = 20)
+    @Column(name = "IDENTIDADE", nullable = false, unique = true, length = 20)
     private String identidade;
     
     @Column(name = "DATA_NASCIMENTO")
