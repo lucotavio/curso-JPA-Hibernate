@@ -1,0 +1,10 @@
+https://docs.jboss.org/hibernate/core/3.3/reference/en/html/best-practices.html
+
+
+Do not use exotic association mappings:
+Practical test cases for real many-to-many associations are rare. Most of the time you need additional information stored in the "link table". In this case,
+it is much better to use two one-to-many associations to an intermediate link class. In fact, most associations are one-to-many and many-to-one.
+For this reason, you should proceed cautiously when using any other association style.
+
+Prefer bidirectional associations:
+Unidirectional associations are more difficult to query. In a large application, almost all associations must be navigable in both directions in queries.
