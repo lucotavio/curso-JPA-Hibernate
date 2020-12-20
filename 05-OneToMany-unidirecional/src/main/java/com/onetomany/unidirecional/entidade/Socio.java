@@ -1,7 +1,9 @@
 package com.onetomany.unidirecional.entidade;
 
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.Set;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,9 +25,15 @@ public class Socio {
     @Column(name = "NOME")
     private String nome;
     
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "ID_SOCIO", referencedColumnName = "ID")
     private Set<Dependente> dependentes;
+
+    
+    public Socio() {
+        dependentes = new HashSet<>();
+    }
+    
 
     public Integer getId() {
         return id;
