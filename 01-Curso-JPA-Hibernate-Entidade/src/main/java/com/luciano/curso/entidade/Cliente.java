@@ -6,10 +6,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import jdk.jfr.Timestamp;
+import org.postgresql.Driver;
 
 @Entity
 @Table(name = "CLIENTE")
@@ -18,7 +20,8 @@ public class Cliente {
     
     @Id
     @Column(name = "ID")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "sq_cliente")
+    @SequenceGenerator(name = "sq_cliente",sequenceName = "SQ_CLIENTE")
     private Integer id;
     
     @Column(name = "NOME", nullable = false, length = 100)   
