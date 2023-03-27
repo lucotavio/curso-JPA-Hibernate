@@ -27,3 +27,7 @@ fi
 chmod +x jdk-17.0.6_linux-x64_bin.deb
 sudo dpkg -i jdk-17.0.6_linux-x64_bin.deb
 sudo apt --fix-broken install -y
+
+
+echo "export JAVA_HOME=/usr/lib/jvm/jdk-17" >> /home/$USER/.bashrc
+echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> /home/$USER/.bashrc
