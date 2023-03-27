@@ -22,5 +22,5 @@ else
     curl -L -o docker-compose https://www.dropbox.com/s/auvvs0rh9hvn9qr/docker-compose?dl=0
 fi
 
-sudo chmod +x docker-compose
+chmod +x docker-compose
 sudo cp docker-compose /usr/local/bin/
