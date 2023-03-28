@@ -24,5 +24,5 @@ else
 fi
 
 chmod +x eclipse-jee-2023-03.deb
-sudo dpkg -i eeclipse-jee-2023-03.deb
+sudo dpkg -i eclipse-jee-2023-03.deb
 sudo apt --fix-broken install -y
